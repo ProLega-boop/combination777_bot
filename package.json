@@ -4,7 +4,7 @@
   "main": "index.mjs",
   "type": "module",
   "scripts": {
-    "start": "node index.mjs"
+    "start": "./node_modules/.bin/node index.mjs"
   },
   "dependencies": {
     "telegraf": "^4.16.3",
