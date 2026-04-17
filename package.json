@@ -1,10 +1,10 @@
 {
-  "name": "prolega-bot-v1",
+  "name": "prolega-bot",
   "version": "1.0.0",
-  "main": "index.mjs",
   "type": "module",
+  "main": "index.mjs",
   "scripts": {
-    "start": "./node_modules/.bin/node index.mjs"
+    "start": "node index.mjs"
   },
   "dependencies": {
     "telegraf": "^4.16.3",
